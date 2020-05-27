@@ -45,6 +45,8 @@ The script outputs a GeoJSON FeatureCollection with one feature per county. The 
 }
 ```
 
+![Sample counties in a Google Maps map](https://lgnd.com/wp-content/uploads/2020/05/Screen-Shot-2020-05-27-at-11.44.29-AM.png)
+
 # Credits
 The US County boundary data is under a Public Domain license from [Opendatasoft](https://public.opendatasoft.com/explore/dataset/us-county-boundaries/information/)
 
