@@ -6,7 +6,7 @@ Running this script requires a relatively recent version of PHP to be installed 
 ## Usage
 - Click the "Download global CSV" button on the [Mobility Reports page](https://www.google.com/covid19/mobility/) and save it somewhere useful
 - Download the `mobility-to-geojson.php` file from this project
-- Execute `mobility-to-geojson.php Global_Mobility_Report.csv > output.geojson`
+- Execute `php mobility-to-geojson.php Global_Mobility_Report.csv > output.geojson`
 
 ## Output
 The script outputs a GeoJSON FeatureCollection with one feature per county. The report segments results by date, so the reported fields are included as properties by date and property name. E.g.:
